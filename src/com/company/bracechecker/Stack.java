@@ -1,10 +1,9 @@
 package com.company.bracechecker;
 
-public interface Stack {
+public interface Stack <T>{
 
-    public static final  String s="";
+    T pop();
+    void push(T element);
 
-    void push(Object element);
-
-    Object pop();
+    boolean isEmpty();
 }

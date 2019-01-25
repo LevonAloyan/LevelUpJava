@@ -28,6 +28,7 @@ public class BraceCheckerFrame extends JFrame {
     JButton parseButton = new JButton("Parse");
 
     parseButton.addActionListener(new ActionListener() {
+
       @Override
       public void actionPerformed(ActionEvent e) {
         parseActionPerformed(e);
@@ -52,6 +53,7 @@ public class BraceCheckerFrame extends JFrame {
     setVisible(true);
 //        setResizable(false);
     setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
   }
 
   private void parseActionPerformed(ActionEvent e) {
